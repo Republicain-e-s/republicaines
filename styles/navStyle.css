@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('fonts/AvenirLTSd-Book.otf') format("otf");
+}
+@font-face {
+    font-family: 'Avenir Next Condensed';
+    src: url('fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
+}
+
+nav
+{
+  font-family: "Avenir Next Condensed", Verdana, sans-serif;
+  background-color: #EFEFEF;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  padding-left: 431.5px;
+  padding-right: 431.5px;
+}
+
+nav #links
+{
+  display: flex;
+  width: 1057px;
+  justify-content: space-between;
+}
+
+nav a, nav p
+{
+  color: #313131;
+  text-decoration: none;
+}
+
+nav #soonConteneur
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

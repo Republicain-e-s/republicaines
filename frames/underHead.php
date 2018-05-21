@@ -1,7 +1,11 @@
 <nav>
-  <p>Qu’est-ce que Républicain.e.s ?</p>
-  <p>Nos vidéos</p>
-  <p>Nos articles</p>
-  <p class="soon">BIENTÔT</p>
-  <p>Participer</p>
+  <div id="links">
+    <a href="questCeQueRepublicainnes.php">Qu’est-ce que Républicain.e.s ?</a>
+    <p>Nos vidéos</p>
+	<div id="soonConteneur">
+      <p>Nos articles</p>
+      <p class="soon">BIENTÔT</p>
+	</div>
+    <p>Participer</p>
+  </div>
 </nav>

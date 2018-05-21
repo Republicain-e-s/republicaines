@@ -5,6 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/styleIndex.css" />
+    <link rel="stylesheet" href="styles/navStyle.css" />
     <title>Login - Républicain.e.s</title>
   </head>
 
