@@ -14,7 +14,15 @@
 
     <?php include 'frames/underHead.php'; ?>
 
+    <form method="post" action="functions/login.php">
+      <label for="email">Email</label> :
+      <input type="email" name="email" id="email" required/>
 
+      <label for="pwd">Mot de passe</label> :
+      <input type="password" name="pwd" id="pwd" required/>
+
+      <input type="submit" value="Se connecter" />
+    </form>
 
     <?php include 'frames/footer.php'; ?>
   </body>

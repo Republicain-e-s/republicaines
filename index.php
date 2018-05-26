@@ -1,5 +1,7 @@
 <?php include 'relationships/starting.php'; ?>
 
+<?php $SESSION["location"] = "http://www.republicain-e-s.fr" ?>
+
 <!DOCTYPE html>
 <html>
   <head>
