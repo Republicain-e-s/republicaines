@@ -16,11 +16,11 @@ if (isset($_POST["email"]) AND isset($_POST["pwd"]) AND isset($_POST["pseudo"]))
     'password' => $pwdHash,
     'pseudo' => $_POST["pseudo"],
   ));
-  $SESSION["email"] = $_POST["email"];
-  $SESSION["pwd"] = $_POST["pwd"];
+  $_SESSION["email"] = $_POST["email"];
+  $_SESSION["pwd"] = $_POST["pwd"];
 
-  echo "Redirection to http://www.republicain-e-s.fr/functions/login.php";
-  header('Location: http://www.republicain-e-s.fr/functions/login.php');
-  exit;
+  $req->closeCursor();
+
+  die('<meta http-equiv="refresh" content="0.01;URL=http://www.republicain-e-s.fr/functions/login.php">');
 }
 ?>

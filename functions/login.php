@@ -3,10 +3,12 @@
 <?php include '../relationships/connectionBDD.php'; ?>
 
 <?php
-/*if (!(isset($_POST["email"]) AND isset($_POST["pwd"])) AND (isset($SESSION["email"]) AND isset($SESSION["pwd"])))
+if (!(isset($_POST["email"]) AND isset($_POST["pwd"])) AND (isset($_SESSION["email"]) AND isset($_SESSION["pwd"])))
 {
-  $_POST["email"] = $SESSION["email"];
-  $_POST["pwd"] = $SESSION["pwd"];
+  $_POST["email"] = $_SESSION["email"];
+  $_POST["pwd"] = $_SESSION["pwd"];
+  unset($_SESSION["email"]);
+  unset($_SESSION["pwd"]);
 }
 if (isset($_POST["email"]) AND isset($_POST["pwd"]))
 {
@@ -20,18 +22,14 @@ if (isset($_POST["email"]) AND isset($_POST["pwd"]))
   }
   else if ($donnees["password"] == $pwdHash)
   {
-    $SESSION["connected"] = true;
-    $SESSION["pseudo"] = $donnees["pseudo"];
-    $SESSION["email"] = $donnees["email"];
-    $SESSION["id"] = $donnees["id"];
+    $_SESSION["connected"] = true;
+    $_SESSION["pseudo"] = $donnees["pseudo"];
+    $_SESSION["email"] = $donnees["email"];
+    $_SESSION["id"] = $donnees["id"];
     echo "Connected";
   }
-}*/
+}
 
-echo "Test";
+die('<meta http-equiv="refresh" content="0.01;URL=' . $_SESSION["lastLocation"] . '">');
 
-echo 'Redirection to ' . $SESSION["lastLocation"];
-
-/*header('Location: ' . $SESSION["lastLocation"]);
-exit;*/
 ?>

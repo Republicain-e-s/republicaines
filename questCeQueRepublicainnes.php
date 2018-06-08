@@ -1,6 +1,6 @@
 <?php include 'relationships/starting.php'; ?>
 
-<?php $SESSION["location"] = "http://www.republicain-e-s.fr/questCeQueRepublicainnes.php" ?>
+<?php $_SESSION["location"] = "http://www.republicain-e-s.fr/questCeQueRepublicainnes.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="styles/navStyle.css" />
     <title>Login - Républicain.e.s</title>
   </head>
+
+  <?php include 'analysis/matamo.php'; ?>
 
   <body>
     <?php include 'frames/header.php'; ?>
