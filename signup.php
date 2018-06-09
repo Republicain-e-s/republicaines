@@ -8,7 +8,8 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
-    <title>Login - Républicain.e.s</title>
+    <link rel="stylesheet" href="styles/headerStyle.css" />
+    <title>Signup - Républicain.e.s</title>
   </head>
 
   <?php include 'analysis/matamo.php'; ?>

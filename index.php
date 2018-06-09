@@ -8,6 +8,7 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
+    <link rel="stylesheet" href="styles/headerStyle.css" />
     <title>Accueil - Républicain.e.s</title>
   </head>
 

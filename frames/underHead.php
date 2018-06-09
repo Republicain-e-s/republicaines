@@ -1,11 +1,11 @@
 <nav>
   <div id="links">
     <a href="questCeQueRepublicainnes.php">Qu’est-ce que Républicain.e.s ?</a>
-    <p>Nos vidéos</p>
+    <a>Nos vidéos</a>
 	<div id="soonConteneur">
-      <p>Nos articles</p>
+      <a>Nos articles</a>
       <p class="soon">BIENTÔT</p>
 	</div>
-    <p>Participer</p>
+    <a>Participer</a>
   </div>
 </nav>

@@ -11,3 +11,5 @@
   </figure>
   <a href="#top"><img src="pictures/flecheRetourHaut.png" alt="Une fleche vers le haut" /></a>
 </footer>
+
+<p>v 0.0.3</p>
