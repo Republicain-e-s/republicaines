@@ -1,5 +1,13 @@
-<?php include 'relationships/connectionBDD.php'; ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/test.css" />
+    <title>Accueil - Républicain.e.s</title>
+  </head>
+  <body>
 
-<?php
+  <div></div>
 
-?>
+  </body>
+</html>

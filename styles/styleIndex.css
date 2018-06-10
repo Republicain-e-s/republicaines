@@ -19,16 +19,11 @@ footer a img
   height: 50px;
 }
 
-.linkToLog, #backHome, .soon
+.soon
 {
   font-family: "Avenir Book", sans-serif;
   text-decoration: none;
   color: black;
-}
-
-.linkToLog
-{
-  color: #313131;
 }
 
 nav, footer

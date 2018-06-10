@@ -1,12 +1,16 @@
 header
 {
   height: 300px;
-  width: 1920px;
-  /*display: flex;*/
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
   /*background-color: #E67B7B;*/
   background-image: url("../pictures/bannier.jpg");
   background-repeat: no-repeat;
+
+  border: 1px black solid;
 }
 
 header #linksToLog
@@ -16,18 +20,31 @@ header #linksToLog
 
   align-items: center;
   padding-right: 90px;
-  background-color: yellow;
+  padding-left: 0px;
+  /*background-color: yellow;*/
   height: 79px;
+  list-style-type: none;
+  align-self: flex-start;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  align-items: flex-start;
 }
 
 header #linksToLog a
 {
-  padding: 19px, 30px, 19px, 30px;
+  /*padding: 19px, 30px, 19px, 30px;*/
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 30px;
+  padding-right: 30px;
   margin-right: 10px;
   background-color: #EFEFEF;
+  /*border: 1px black solid;*/
+  box-shadow: 0px, 3px, 6px, #000;
   color: #313131;
   font-family: "Avenir Book", sans-serif;
   text-decoration: none;
+  font-size: 30px;
 }
 
 header #linksToLog a:hover
@@ -37,13 +54,32 @@ header #linksToLog a:hover
 
 header h1 a
 {
-  color: white;
+  color: #FFF;
   background-color: violet;
+  font-family: "Avenir Book", sans-serif;
+  text-decoration: none;
+  font-size: 75px;
+  font-weight: normal;
 }
 
 header h1
 {
-  margin: 99px, 707px, 99px, 707px;
+  /*margin: 99px, 707px, 99px, 707px;*/
+  /*margin-top: 99px;
+  margin-bottom: 99px;*/
+  /*margin-left: 707px;*/
+  /*margin-right: 707px;*/
   text-align: center;
   background-color: black;
+  align-self: center;
+  margin: auto;
+}
+
+body
+{
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
