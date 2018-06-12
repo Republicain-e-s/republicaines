@@ -5,9 +5,11 @@
     <link rel="stylesheet" href="styles/test.css" />
     <title>Accueil - Républicain.e.s</title>
   </head>
-  <body>
 
-  <div></div>
+  <?php include 'analysis/matamo.php'; ?>
+
+  <body>
+    <?php include 'frames/header.php'; ?>
 
   </body>
 </html>

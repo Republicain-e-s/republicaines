@@ -12,4 +12,4 @@
   <a href="#top"><img src="pictures/flecheRetourHaut.png" alt="Une fleche vers le haut" /></a>
 </footer>
 
-<p>v 0.0.4</p>
+<p>v 0.0.4.1</p>

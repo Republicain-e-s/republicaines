@@ -1,5 +1,4 @@
 <header id="top">
-  <h1><a href="index.php" id="backHome">Républicain.e.s</a></h1>
   <div id="linksToLog">
     <?php if ($_SESSION["connected"])
     { ?>
@@ -12,4 +11,5 @@
       <a href="signup.php">S’inscrire</a>
     <?php } ?>
   </div>
+  <h1><a href="index.php" id="backHome">Républicain.e.s</a></h1>
 </header>
