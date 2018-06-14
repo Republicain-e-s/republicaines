@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Avenir Book';
-    src: url('fonts/AvenirLTSd-Book.otf') format("otf");
+    src: url('../fonts/AvenirLTSd-Book.otf') format("otf");
 }
 @font-face {
     font-family: 'Avenir Next Condensed';
-    src: url('fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
+    src: url('../fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
 }
 
 .logos
@@ -19,14 +19,7 @@ footer a img
   height: 50px;
 }
 
-.soon
-{
-  font-family: "Avenir Book", sans-serif;
-  text-decoration: none;
-  color: black;
-}
-
-nav, footer
+footer
 {
   font-family: "Avenir Next Condensed", Verdana, sans-serif;
 }

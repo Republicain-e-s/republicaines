@@ -19,8 +19,6 @@
 
     <?php include 'frames/underHead.php'; ?>
 
-
-
     <?php include 'frames/footer.php'; ?>
   </body>
 </html>

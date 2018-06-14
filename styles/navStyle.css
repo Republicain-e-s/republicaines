@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Avenir Book';
-    src: url('fonts/AvenirLTSd-Book.otf') format("otf");
+    src: url('../fonts/AvenirLTSd-Book.otf') format("otf");
 }
 @font-face {
     font-family: 'Avenir Next Condensed';
-    src: url('fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
+    src: url('../fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
 }
 
 nav
@@ -14,6 +14,7 @@ nav
   display: flex;
   align-items: center;
   height: 100px;
+  max-width: 1057px;
   padding-left: 431.5px;
   padding-right: 431.5px;
 }
@@ -23,12 +24,15 @@ nav #links
   display: flex;
   width: 1057px;
   justify-content: space-between;
+  align-items: center;
 }
 
-nav a, nav p
+nav a
 {
   color: #313131;
   text-decoration: none;
+  font-size: 35px;
+  height: 48px;
 }
 
 nav #soonConteneur
@@ -36,4 +40,14 @@ nav #soonConteneur
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+nav p
+{
+  color: #313131;
+  text-decoration: none;
+  margin: 0px 0px 0px 0px;
+  font-family: "Avenir Book", Verdana, sans-serif;
+  font-size: 22px;
+  height: 30px;
 }

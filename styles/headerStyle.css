@@ -1,3 +1,12 @@
+@font-face {
+    font-family: 'Avenir Book';
+    src: url('../fonts/AvenirLTSd-Book.otf') format("otf");
+}
+@font-face {
+    font-family: 'Avenir Next Condensed';
+    src: url('../fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
+}
+
 header
 {
   height: 300px;
@@ -7,12 +16,9 @@ header
   align-items: center;
   flex-direction: row-reverse;*/
 
-  background-color: #E67B7B;
-  opacity: 0.66;
   background-image: url("../pictures/bannier.jpg");
   background-repeat: no-repeat;
 
-  border: 1px black solid;
   box-shadow: 0, 3, 6, #000;
 }
 
@@ -46,7 +52,7 @@ header #linksToLog a
   /*border: 1px black solid;*/
   box-shadow: 0px, 3px, 6px, #000;
   color: #313131;
-  font-family: "Avenir Book", sans-serif;
+  font-family: "Avenir Book", Verdana, sans-serif;
   text-decoration: none;
   font-size: 30px;
 }
@@ -60,7 +66,7 @@ header h1 a
 {
   color: #FFF;
   /*background-color: violet;*/
-  font-family: "Avenir Book", sans-serif;
+  font-family: "Avenir Book", Verdana, sans-serif;
   text-decoration: none;
   font-size: 75px;
   font-weight: normal;
