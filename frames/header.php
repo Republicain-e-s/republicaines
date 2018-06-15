@@ -2,8 +2,8 @@
   <div id="linksToLog">
     <?php if ($_SESSION["connected"])
     { ?>
-      <a href="#">Mon compte</a>
-      <a href="#">Se déconnecter</a>
+      <a href="myAccount.php">Mon compte</a>
+      <a href="functions/disconnect.php">Se déconnecter</a>
     <?php }
     else
     { ?>

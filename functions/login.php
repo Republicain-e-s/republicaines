@@ -1,4 +1,4 @@
-<?php include '../relationships/starting.php'; ?>
+<?php session_start(); ?>
 
 <?php include '../relationships/connectionBDD.php'; ?>
 
@@ -9,16 +9,20 @@ if (!(isset($_POST["email"]) AND isset($_POST["pwd"])) AND (isset($_SESSION["ema
   $_POST["pwd"] = $_SESSION["pwd"];
   unset($_SESSION["email"]);
   unset($_SESSION["pwd"]);
+  echo "Transformaing... <br />";
 }
 if (isset($_POST["email"]) AND isset($_POST["pwd"]))
 {
-  $pwdHash = password_hash($_POST["pwd"], PASSWORD_DEFAULT);
+  echo $_POST["email"]."<br />";
+  $pwdHash = hash("md5", $_POST["pwd"], false);
   $req = $bdd->prepare('SELECT * FROM accounts WHERE email = ?');
   $req->execute(array($_POST["email"]));
+  echo "Query data base... <br />";
   $donnees = $req->fetch();
-  if ($donees == NULL)
+  if ($donnees == NULL)
   {
-
+    echo "Login incorrect <br />";
+    echo $donnees["email"]."<br />";
   }
   else if ($donnees["password"] == $pwdHash)
   {
@@ -27,6 +31,11 @@ if (isset($_POST["email"]) AND isset($_POST["pwd"]))
     $_SESSION["email"] = $donnees["email"];
     $_SESSION["id"] = $donnees["id"];
     echo "Connected";
+  }
+  else
+  {
+    echo "Password incorrect <br />";
+    echo $donnees["password"]." == ".$pwdHash."    ".$_POST["pwd"]."<br />";
   }
 }
 

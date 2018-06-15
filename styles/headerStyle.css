@@ -57,11 +57,6 @@ header #linksToLog a
   font-size: 30px;
 }
 
-header #linksToLog a:hover
-{
-  text-decoration: underline;
-}
-
 header h1 a
 {
   color: #FFF;

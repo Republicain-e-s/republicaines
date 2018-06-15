@@ -1,11 +1,12 @@
-<?php include '../relationships/starting.php'; ?>
+<?php session_start(); ?>
 
 <?php include '../relationships/connectionBDD.php'; ?>
 
 <?php
 if (isset($_POST["email"]) AND isset($_POST["pwd"]) AND isset($_POST["pseudo"]))
 {
-  $pwdHash = password_hash($_POST["pwd"], PASSWORD_DEFAULT);
+  $_POST["email"] = strtolower($_POST["email"]);
+  $pwdHash = hash("md5", $_POST["pwd"], false);
   if ($_POST["pseudo"] == '')
   {
     $_POST["pseudo"] = preg_replace("^(.+)@", "$1", $_POST["pseudo"]);
@@ -20,6 +21,8 @@ if (isset($_POST["email"]) AND isset($_POST["pwd"]) AND isset($_POST["pseudo"]))
   $_SESSION["pwd"] = $_POST["pwd"];
 
   $req->closeCursor();
+
+  $_SESSION["lastLocation"] = "http://www.republicain-e-s.fr/myAccount.php";
 
   die('<meta http-equiv="refresh" content="0.01;URL=http://www.republicain-e-s.fr/functions/login.php">');
 }

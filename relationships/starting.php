@@ -3,6 +3,7 @@ session_start();
 
 if (!isset($_SESSION["connected"]))
 {
+  echo "Reseting Session <br />";
   $_SESSION["connected"] = false;
 }
 if (!isset($_SESSION["location"]))
