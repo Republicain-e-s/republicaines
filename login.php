@@ -9,15 +9,23 @@
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
     <link rel="stylesheet" href="styles/headerStyle.css" />
+    <?php include 'functions/colors.php'; ?>
     <title>Login - Républicain.e.s</title>
   </head>
 
   <?php include 'analysis/matamo.php'; ?>
 
   <body>
+    <script src="js/bandeauCookie.js" ></script>
     <?php include 'frames/header.php'; ?>
 
     <?php include 'frames/underHead.php'; ?>
+
+    <?php if ($_SESSION["error"] == "Login") { ?>
+      <p class="error">Indentifiant incorrect.</p>
+    <?php } else if ($_SESSION["error"] == "Password") { ?>
+      <p class="error">Mot de passe incorrect.</p>
+    <?php } ?>
 
     <form method="post" action="functions/login.php">
       <label for="email">Email</label> :

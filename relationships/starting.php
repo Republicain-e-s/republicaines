@@ -12,4 +12,9 @@ if (!isset($_SESSION["location"]))
 }
 
 $_SESSION["lastLocation"] = $_SESSION["location"];
+
+
+setcookie("colors", "red", time() + 7*24*3600, null, null, false, true);
+setcookie("languages", "french", time() + 7*24*3600, null, null, false, true);
+
 ?>

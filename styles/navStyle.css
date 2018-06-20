@@ -10,44 +10,31 @@
 nav
 {
   font-family: "Avenir Next Condensed", Verdana, sans-serif;
-  background-color: #EFEFEF;
   display: flex;
   align-items: center;
   height: 100px;
-  max-width: 1057px;
-  padding-left: 431.5px;
-  padding-right: 431.5px;
+  max-width: 1134px;
+  padding-left: 408px;
+  padding-right: 408px;
 }
 
 nav #links
 {
   display: flex;
-  width: 1057px;
+  width: 1134px;
   justify-content: space-between;
   align-items: center;
 }
 
 nav a
 {
-  color: #313131;
   text-decoration: none;
-  font-size: 35px;
-  height: 48px;
+  font-size: 40px;
+  height: 55px;
+  padding: 23px 30px 22px 30px;
 }
 
-nav #soonConteneur
+nav a:hover
 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-nav p
-{
-  color: #313131;
-  text-decoration: none;
-  margin: 0px 0px 0px 0px;
-  font-family: "Avenir Book", Verdana, sans-serif;
-  font-size: 22px;
-  height: 30px;
+  background-color: rgba(49, 49, 49, 0.05);
 }

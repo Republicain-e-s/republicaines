@@ -1,3 +1,43 @@
+==========  v 0.0.6 ==========
+    @LopsemPyier
+   20_06_2018
+
+F:
+Nouveau design !
+
+Ajouts :
+ - Format svg pour les images.
+ - Banndeau de cookie.
+ - Page pour participer.
+ - Fichier css pour le footer.
+ - Fichier color.php pour mettre les bonnes couleurs.
+ - Cookies pour connaître la couleur et la langue choisi. Ils se suppriment après une semaine.
+
+Changement :
+ - Design :
+  - Ajout de deux modes de couleurs, rouge et gris.
+  - Changement dans l'en tête.
+ - Contenu sur qu'est ce que Républician.e.s
+ - Divers bugs et fixes.
+
+E:
+New design !
+
+Added :
+ - svg format for pictures.
+ - Cookie banner.
+ - Page to participate.
+ - Css file for the footer.
+ - File color.php to put the right colors.
+ - Cookies to know the color and language chosen. They disappear after a week.
+
+Change :
+ - Design :
+  - Added two color modes, red and gray.
+  - Change in the header.
+ - Content about what Republican.e.s
+ - Some bugs and fixes.
+
 ==========  v 0.0.5 ==========
     @LopsemPyier
    15_06_2018

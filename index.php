@@ -9,12 +9,15 @@
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
     <link rel="stylesheet" href="styles/headerStyle.css" />
+    <?php include 'functions/colors.php'; ?>
     <title>Accueil - Républicain.e.s</title>
   </head>
 
   <?php include 'analysis/matamo.php'; ?>
 
   <body>
+    <script type="text/javascript" src="js/bandeauCookie.js" ></script>
+
     <?php include 'frames/header.php'; ?>
 
     <?php include 'frames/underHead.php'; ?>

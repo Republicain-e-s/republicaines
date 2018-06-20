@@ -13,16 +13,14 @@ if (!(isset($_POST["email"]) AND isset($_POST["pwd"])) AND (isset($_SESSION["ema
 }
 if (isset($_POST["email"]) AND isset($_POST["pwd"]))
 {
-  echo $_POST["email"]."<br />";
   $pwdHash = hash("md5", $_POST["pwd"], false);
   $req = $bdd->prepare('SELECT * FROM accounts WHERE email = ?');
   $req->execute(array($_POST["email"]));
-  echo "Query data base... <br />";
   $donnees = $req->fetch();
   if ($donnees == NULL)
   {
-    echo "Login incorrect <br />";
-    echo $donnees["email"]."<br />";
+    $_SESSION["error"] = "Login";
+    die('<meta http-equiv="refresh" content="0.01;URL=http://republicain-e-s.fr/login.php">');
   }
   else if ($donnees["password"] == $pwdHash)
   {
@@ -30,12 +28,12 @@ if (isset($_POST["email"]) AND isset($_POST["pwd"]))
     $_SESSION["pseudo"] = $donnees["pseudo"];
     $_SESSION["email"] = $donnees["email"];
     $_SESSION["id"] = $donnees["id"];
-    echo "Connected";
+    $_SESSION["error"] = NULL;
   }
   else
   {
-    echo "Password incorrect <br />";
-    echo $donnees["password"]." == ".$pwdHash."    ".$_POST["pwd"]."<br />";
+    $_SESSION["error"] = "Password";
+    die('<meta http-equiv="refresh" content="0.01;URL=http://republicain-e-s.fr/login.php">');
   }
 }
 

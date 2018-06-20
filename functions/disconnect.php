@@ -6,5 +6,5 @@ unset($_SESSION["pseudo"]);
 unset($_SESSION["email"]);
 unset($_SESSION["id"]);
 
-die('<meta http-equiv="refresh" content="0.01;URL=' . $_SESSION["lastLocation"] . '">');
+die('<meta http-equiv="refresh" content="0.01;URL=' . $_SESSION["location"] . '">');
 ?>

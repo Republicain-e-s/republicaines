@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
     <link rel="stylesheet" href="styles/headerStyle.css" />
+    <?php include 'functions/colors.php'; ?>
     <title>Accueil - Républicain.e.s</title>
   </head>
 

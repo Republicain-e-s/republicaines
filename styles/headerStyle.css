@@ -9,17 +9,8 @@
 
 header
 {
-  height: 300px;
+  height: 350px;
   max-width: 1920px;
-  /*display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row-reverse;*/
-
-  background-image: url("../pictures/bannier.jpg");
-  background-repeat: no-repeat;
-
-  box-shadow: 0, 3, 6, #000;
 }
 
 header #linksToLog
@@ -31,7 +22,6 @@ header #linksToLog
   justify-content: flex-end;
   margin-right: 90px;
   margin-left: auto;
-  /*background-color: yellow;*/
   height: 79px;
   list-style-type: none;
   align-self: flex-start;
@@ -48,40 +38,20 @@ header #linksToLog a
   padding-left: 30px;
   padding-right: 30px;
   margin-right: 10px;
-  background-color: #EFEFEF;
   /*border: 1px black solid;*/
-  box-shadow: 0px, 3px, 6px, #000;
-  color: #313131;
+  box-shadow: 0px, 3px, 6px, rgba(0, 0, 0, 0.16);
   font-family: "Avenir Book", Verdana, sans-serif;
   text-decoration: none;
   font-size: 30px;
 }
 
-header h1 a
+header #backHome
 {
-  color: #FFF;
-  /*background-color: violet;*/
-  font-family: "Avenir Book", Verdana, sans-serif;
-  text-decoration: none;
-  font-size: 75px;
-  font-weight: normal;
+  width: 350px;
+  height: 350px;
+  border: 1px #707070 solid;
 }
 
-header h1
-{
-  /*margin: 99px, 707px, 99px, 707px;*/
-  /*margin-top: 99px;
-  margin-bottom: 99px;*/
-  /*margin-left: 707px;*/
-  /*margin-right: 707px;*/
-  text-align: center;
-  /*background-color: black;*/
-  align-self: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 body
 {
