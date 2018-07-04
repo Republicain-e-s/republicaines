@@ -1,27 +1,24 @@
 @font-face {
-    font-family: 'Avenir Book';
-    src: url('../fonts/AvenirLTSd-Book.otf') format("otf");
-}
-@font-face {
     font-family: 'Avenir Next Condensed';
     src: url('../fonts/AvenirNextCondensed-Regular.ttf') format("truetype");
 }
+@font-face {
+    font-family: 'Avenir Next Condensed Medium';
+    src: url('../fonts/AvenirNextCondensed-Medium.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Avenir Next';
+    src: url('../fonts/AvenirNext-Regular.ttf') format("truetype");
+}
+@font-face {
+    font-family: 'Avenir Next Medium';
+    src: url('../fonts/AvenirNext-Medium.ttf') format("truetype");
+}
+
 
 .logos
 {
-  widht: 40px;
-  height: 40px;
-}
-
-footer a img
-{
-  widht: 50px;
-  height: 50px;
-}
-
-footer
-{
-  font-family: "Avenir Next Condensed", Verdana, sans-serif;
+  height: 60px;
 }
 
 footer p:hover
@@ -32,31 +29,78 @@ footer p:hover
 footer p
 {
   text-decoration: none;
-  color: #313131;
+  margin: 0px;
 }
 
 footer
 {
   background-color: #EFEFEF;
-  display: flex;
-  align-items: center;
-  height: 100px;
-  padding-left: 50px;
-  padding-right: 35px;
+  height: 200px;
+  font-family: "Avenir Next Condensed", Verdana, sans-serif;
 }
 
-footer figure
+footer #contentFooter
+{
+  max-width: 1920px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+footer #logosContener
 {
   display: flex;
-  width: 180px;
+  width: 280px;
   justify-content: space-between;
-  margin-right: 765px;
-  margin-left: 252px;
+  margin: auto;
 }
 
 footer #usefulLinks
 {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  width: 568px;
+  height: 102px;
+  margin: 49px;
+  font-size: 25px;
+}
+
+footer #changeLang
+{
+  width: 66px;
+  height: 60px;
+  margin: 70px 90px 70px 39px;
+}
+
+footer #langueLogos
+{
+  width: 135px;
+  height: 191px;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.4);
+  background-color: #FFFFFF;
+  padding: 20px 0px;
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 140px;
+}
+
+footer #langueLogos img
+{
+  width: 70px;
+  height: 47px;
+  margin-left: 15px;
+}
+
+footer #langueLogos a
+{
+  margin-left: auto;
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Avenir Next Condensed", Verdana, sans-serif;
+  color: #313131;
+  text-decoration: none;
 }

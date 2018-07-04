@@ -2,46 +2,123 @@
 
 if (isset($_COOKIE["colors"]))
 {
-  if ($_COOKIE["colors"] == "red")
+  if ($_COOKIE["colors"] == "light")
   {
     ?>
     <style>
     nav
     {
-      background-color: #EBA4A4;
+      background-color: #EFEFEF;
     }
     nav a
     {
-      color: #FFFFFF;
+      color: #313131;
+    }
+    nav a:hover
+    {
+      background-color: rgba(49, 49, 49, 0.05);
     }
     header #linksToLog a
     {
-      color: #FFFFFF;
-      background-color: #EBA4A4;
+      color: #313131;
+      background-color: #EFEFEF;
+    }
+    footer
+    {
+      background-color: #EFEFEF;
+    }
+    footer p
+    {
+      color: #313131;
+    }
+    #cookie-law
+    {
+      background-color: #EFEFEF;
     }
     </style>
     <?php
+
+
+    $colors = "Noir";
   }
-  else if ($_COOKIE["colors"] == "gris")
+  else
   {
     ?>
     <style>
     nav
     {
-      background-color: #EFEFEF;
+      background-color: #4B386E;
     }
     nav a
     {
-      color: #313131;
+      color: #FFFFFF;
+    }
+    nav a:hover
+    {
+      background-color: rgba(255, 255, 255, 0.05);
     }
     header #linksToLog a
     {
-      color: #313131;
-      background-color: #EFEFEF;
+      color: #FFFFFF;
+      background-color: #4B386E;
+    }
+    footer
+    {
+      background-color: #4B386E;
+    }
+    footer p
+    {
+      color: #FFFFFF;
+    }
+    #cookie-law
+    {
+      background-color: #4B386E;
     }
     </style>
     <?php
+
+
+    $colors = "Blanc";
   }
 }
+else
+{
+  ?>
+  <style>
+  nav
+  {
+    background-color: #4B386E;
+  }
+  nav a
+  {
+    color: #FFFFFF;
+  }
+  nav a:hover
+  {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+  header #linksToLog a
+  {
+    color: #FFFFFF;
+    background-color: #4B386E;
+  }
+  footer
+  {
+    background-color: #4B386E;
+  }
+  footer p
+  {
+    color: #FFFFFF;
+  }
+  #cookie-law
+  {
+    background-color: #4B386E;
+  }
+  </style>
+  <?php
+  $colors = "Blanc";
+}
+
+
 
 ?>

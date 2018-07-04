@@ -1,4 +1,5 @@
 <header id="top">
+  <a href="index.php" id="backHome"><img src="pictures/logoRep.png" alt="Le logo de Républicain.e.s"/></a>
   <div id="linksToLog">
     <?php if ($_SESSION["connected"])
     { ?>
@@ -10,5 +11,4 @@
       <a href="signup.php">S’inscrire</a>
     <?php } ?>
   </div>
-  <a href="index.php" id="backHome"><img src="logoRep.svg" alt="Le logo de Républicain.e.s"/></a>
 </header>

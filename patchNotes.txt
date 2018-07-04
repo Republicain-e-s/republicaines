@@ -1,3 +1,55 @@
+==========  v 0.0.8 ==========
+    @LopsemPyier
+   04_07_2018
+
+F:
+Ajout du JavaScript.
+
+Ajouts :
+ - Polices Avenir Next à la place de Avenir Book pour des soucis d'homogénéité.
+ - Scripts JavaScript pour le banndeau de cookie et le changement de langue.
+ - Images :
+  - Images du symbole pour changer de langue.
+  - Images des drapeaux FR, ESP et US.
+  - Logo principal.
+ - Feuille de style CSS pour la bannière de cookie.
+
+
+Changement :
+ - Footer :
+  - Images dynamique pour les reseaux sociaux : changement de couleurs lorsque le thème change.
+ - Les thèmes rouge et gris sont maintenant Dark et Light.
+ - La variable $_SESSION["location"] ne contient plus l'url. C'est $_SESSION["urlBase"].
+ - Feuilles de style :
+  - Changement de design général.
+ - Sur toutes les pages Ajout des feuilles de style pour le Footer et la Bannière de cookie. Ajout aussi de la bannière.
+
+
+E:
+Added JavaScript.
+
+Added :
+ - Avenir Next fonts instead of Avenir Book for homogeneity.
+ - JavaScript scripts for cookie banner and language change.
+ - Pictures :
+  - Symbol images to change language.
+  - FR, ESP and US flag pictures.
+  - Main logo.
+ - CSS style sheet for cookie banner.
+
+
+Change :
+ - Footer :
+  - Dynamic images for social networks: change colors when the theme changes.
+ - The red and grey themes are now Dark and Light.
+ - The variable $_SESSION["location"] no longer contains the url. It's $_SESSION["urlBase"].
+ - Style sheets :
+  - General design change.
+ - On all pages Add style sheets for Footer and Cookie Banner. Add also the banner.
+
+==========  ****  ==========
+
+
 ==========  v 0.0.6 ==========
     @LopsemPyier
    20_06_2018
@@ -37,6 +89,9 @@ Change :
   - Change in the header.
  - Content about what Republican.e.s
  - Some bugs and fixes.
+
+==========  ****  ==========
+
 
 ==========  v 0.0.5 ==========
     @LopsemPyier

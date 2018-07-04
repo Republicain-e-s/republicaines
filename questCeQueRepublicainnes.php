@@ -1,6 +1,6 @@
 <?php include 'relationships/starting.php'; ?>
 
-<?php $_SESSION["location"] = "http://www.republicain-e-s.fr/questCeQueRepublicainnes.php" ?>
+<?php $_SESSION["location"] = "questCeQueRepublicainnes.php" ?>
 
 <!DOCTYPE html>
 <html>
@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="styles/styleIndex.css" />
     <link rel="stylesheet" href="styles/navStyle.css" />
     <link rel="stylesheet" href="styles/headerStyle.css" />
+    <link rel="stylesheet" href="styles/footerStyle.css" />
+    <link rel="stylesheet" href="styles/bannerCookieStyle.css" />
     <?php include 'functions/colors.php'; ?>
     <title>Qu'est ce que Républicain.e.s</title>
   </head>
@@ -20,7 +22,7 @@
 
     <?php include 'frames/underHead.php'; ?>
 
-    <h2>Qu’est ce que Républicain.e.s ?</h2>$
+    <h2>Qu’est ce que Républicain.e.s ?</h2>
 
     <h3><img src="pictures/moins.png" alt="Image d'un moins" class="imgsPlus" class="nom" />Pourquoi ce nom ?</h3>
     <div class="nom">
@@ -48,5 +50,7 @@
     </div>
 
     <?php include 'frames/footer.php'; ?>
+
+    <?php include 'frames/cookieBanner.php'; ?>
   </body>
 </html>
