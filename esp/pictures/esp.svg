@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 70 47">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#pattern);
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 70 47">
+      <image width="70" height="47" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEYAAAAvCAYAAABe1bwWAAABdUlEQVR4Ae3btVYDQQBG4ZTkwXBp4u7p6aDEXXvcnQZtoYXHiLv7MLNYHNf5c86N65f1TUTFB7/M1kI7ojlpBRr55xVozofP3MIMykEaaNs0wnnMQFwMswaUp9YeUZqAUVETgzkAREWHDMYLiIqcIiBULV8DBgHmjTCAIbdSgioDDGAAAxjA/DaY1JKGkJvS63JnChLuNpHsqaL4euF+qUUNHzBsfh60WUh8VE/i0zoS6TUSv9zGrhdOIz1G4Xp2e8huYdfzA/PWAAMYwAAGMID5IhjFG2HknMAELZY3wQTNFj5gYoP6N8HE+g18wOQuFcQvf/1oxFYXuIBhJea1r4JJzOr4W7uOT+nqosTH9fxudkitqklAZy0BCWitJLWsxvaYwrVMGDqCJotwmr+SY0PV5wUYwAAGMAj7rrFTHzCA+crwG7zq+RjMISAqOsTvfKvXjF+GV7ZW/JN5MW0HKLZdZlHtzxadtGOaiyMM18Nn7iq2uAPocPzCLSg5zgAAAABJRU5ErkJggg=="/>
+    </pattern>
+  </defs>
+  <rect id="_10bb7b2e55f0a34f23d903121de6b9bc" data-name="10bb7b2e55f0a34f23d903121de6b9bc" class="cls-1" width="70" height="47" rx="10"/>
+</svg>

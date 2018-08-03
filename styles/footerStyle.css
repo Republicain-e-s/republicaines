@@ -35,13 +35,13 @@ footer p
 footer
 {
   background-color: #EFEFEF;
-  height: 200px;
   font-family: "Avenir Next Condensed", Verdana, sans-serif;
 }
 
 footer #contentFooter
 {
   max-width: 1920px;
+  height: 200px;
   margin: auto;
   display: flex;
   align-items: center;
