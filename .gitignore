@@ -1,2 +1,4 @@
 .unsync
 .ftpconfig
+.ftpignore
+vendor/backend/youtubeApi

@@ -1,0 +1,107 @@
+/*
+  dark.css:
+Stylesheet for the colors of the dark theme.
+*/
+
+
+@media screen and (min-width: 1280px) {
+
+  /*Colors of the banner*/
+  header ul li {
+    background-color: #313131;
+  }
+
+  header ul a {
+    color: #FFF;
+  }
+
+
+  /*colors of the menu*/
+  nav {
+    background-color: #313131;
+  }
+
+  nav ul a {
+    color: #FFF;
+  }
+
+  nav ul li.active {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+
+  /*Color of the cookie banner*/
+  .cookieBanner {
+    background-color: #313131;
+  }
+
+  .cookieBanner p {
+    color: #FFF;
+  }
+
+
+  /*Colors of the footer*/
+  footer .usefulLink a {
+    color: #FFF;
+  }
+
+  footer {
+    background-color: #313131;
+  }
+
+  footer #langaguesFlags {
+    background-color: #313131;
+  }
+
+  footer #langaguesFlags a {
+    color: #FFF;
+  }
+
+
+  /*Color of the cookie banner*/
+  .cookieBanner {
+    background-color: #313131;
+  }
+
+  .cookieBanner p {
+    color: #FFF;
+  }
+
+
+  /*Color of the signup formulaire*/
+  section .postForm {
+    color: #FFF;
+  }
+
+  section form label {
+    color: #FFF;
+  }
+
+  section form input[type="text"], section input[type="password"], section input[type="email"] {
+    background-color: #151515;
+  }
+
+  section form input[type='file'] + label {
+    background-color: #151515;
+    border: 1px solid #FFF;
+  }
+
+  section form input[type='submit'] {
+    border: 1px solid #FFF;
+    background-color: #151515;
+    color: #FFF;
+  }
+
+  section form .threeCollum {
+    border-left: 1px solid #FFF;
+  }
+
+
+  /*Color of the body background*/
+  body {
+    background-color: #151515;
+  }
+}

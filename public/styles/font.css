@@ -1,0 +1,34 @@
+/*
+  font.css:
+Stylesheet for some style needed on all pages like font-face.
+*/
+
+
+/*Avenir Next font-face*/
+@font-face {
+  font-family: 'Avenir-Next';
+  src: url("../../public/fonts/AvenirNext-Regular.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'Avenir-Next-Medium';
+src: url("../../public/fonts/AvenirNext-Medium.ttf") format("truetype");
+}
+
+@font-face {
+font-family: 'Avenir-Next-UltraLight';
+src: url("../../public/fonts/AvenirNext-UltraLight.ttf") format("truetype");
+}
+
+
+/*Avenir Next Condensed font-face*/
+@font-face {
+  font-family: 'Avenir-Next-Condensed';
+  src: url("../../public/fonts/AvenirNextCondensed-Regular.ttf") format("truetype");
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}

@@ -1,0 +1,98 @@
+/*
+  light.css:
+Stylesheet for the colors of the light theme (applied by default).
+*/
+
+
+@media screen and (min-width: 1280px) {
+
+  /*Colors of the banner*/
+  header ul li {
+    background-color: #EFEFEF;
+  }
+
+  header ul a {
+    color: #313131;
+  }
+
+
+  /*colors of the menu*/
+  nav {
+    background-color: #EFEFEF;
+  }
+
+  nav ul a {
+    color: #313131;
+  }
+
+  nav ul li.active {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+  nav ul li:hover {
+    background-color: rgba(0, 0, 0, 0.06);
+  }
+
+
+  /*Colors of the footer*/
+  footer .usefulLink a {
+    color: #313131;
+  }
+
+  footer {
+    background-color: #EFEFEF;
+  }
+
+  footer #langaguesFlags {
+    background-color: #FFF;
+  }
+
+  footer #langaguesFlags a {
+    color: #313131;
+  }
+
+
+  /*Color of the cookie banner*/
+  .cookieBanner {
+    background-color: #EFEFEF;
+  }
+
+  .cookieBanner p {
+    color: #313131;
+  }
+
+
+  /*Color of the signup formulaire*/
+  section .postForm {
+    color: #313131;
+  }
+
+  section form label {
+    color: #313131;
+  }
+
+  section input[type="text"], section input[type="password"], section input[type="email"] {
+    background-color: #FFF;
+  }
+
+  section form input[type='file'] + label {
+    background-color: #FFF;
+    border: 1px solid #313131;
+  }
+
+  section form input[type='submit'] {
+    border: 1px solid #313131;
+    background-color: #FFF;
+    color: #313131;
+  }
+
+  section form .threeCollum {
+    border-left: 1px solid #313131;
+  }
+
+
+  /*Color of the body background*/
+  body {
+    background-color: #FFF;
+  }
+}

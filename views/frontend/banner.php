@@ -1,7 +1,7 @@
 <header>
-  <a><img src="/public/pictures/logo.svg" alt="Le logo de Républicain.e.s" /></a>
-  <div class="connexionButtons">
-    <a href="/login">Se connecter</a>
-    <a href="/singup">S’inscrire</a>
-  </div>
+  <a><img src="public/pictures/logo.png" alt="Le logo de Républicain.e.s" onclick="adapteColorTheme()" /></a>
+  <ul class="connexionButtons">
+    <li><a href="/login">Se connecter</a></li>
+    <li><a href="/signup">S’inscrire</a></li>
+  </ul>
 </header>

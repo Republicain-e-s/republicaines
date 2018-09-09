@@ -1,0 +1,143 @@
+/*
+  sigup.css:
+Stylesheet for the position of the tag in the sigup page.
+
+Few colors or box-shadow are in this stylesheet because they are the same in light and dark theme.
+*/
+
+@media screen and (min-width: 1280px) {
+
+  /*Style of the post-formulaire*/
+  section .postForm h1 {
+    font-family: "Avenir-Next-UltraLight", Verdana, sans-serif;
+    font-size: 70px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+
+  section .postForm #description {
+    font-family: "Avenir-Next", Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 110px;
+  }
+
+  section .postForm #description .redText {
+    color: #ED5565;
+  }
+
+  section .postForm #description + p {
+    font-family: "Avenir-Next", Verdana, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section .postForm img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+  }
+
+  section .postForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 70px;
+    height: 470px;
+  }
+
+
+  /*Style of formulaire*/
+  section form .form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  section form {
+    display: flex;
+    flex-direction: column;
+    /*align-items: center;*/
+    margin: 100px 70px;
+    margin-bottom: 20px;
+  }
+
+  section input[type="text"], section input[type="password"], section input[type="email"] {
+    border: none;
+    padding: 1px;
+    color: #ED5565;
+    font-family: "Avenir-Next", Verdana, sans-serif;
+    font-size: 18px;
+    opacity: 1;
+  }
+
+  section form label {
+    font-family: "Avenir-Next", Verdana, sans-serif;
+    font-size: 18px;
+  }
+
+  section form input[type="file"] {
+    width: 0.1px;
+	  height: 0.1px;
+	  opacity: 0;
+	  overflow: hidden;
+	  position: absolute;
+    z-index: -1;
+  }
+
+  section form input[type="file"] + label {
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.24);
+  }
+
+  section form input[type='submit'] {
+    border-radius: 10px;
+    padding: 10px 20px;
+    height: 45px;
+    margin-top: 60px;
+    cursor: pointer;
+    align-self: center;
+  }
+
+  section form div {
+    display: flex;
+    flex-direction: column;
+    height: 190px;
+    justify-content: space-between;
+  }
+
+  section form .threeCollum {
+    padding-left: 15px;
+  }
+
+  section form .oneCollum {
+    margin: 0px auto;
+    align-items: center;
+    width: 210px;
+  }
+
+  section form .oneCollum input[type='text'] {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  section form .twoCollum {
+    margin: 0px auto;
+  }
+
+  section form .checkBox label {
+    margin-left: 10px;
+  }
+
+
+  /*Other*/
+  section {
+    margin: 40px 0px;
+  }
+}
