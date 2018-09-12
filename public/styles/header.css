@@ -28,6 +28,8 @@ Few colors or box-shadow are in this stylesheet because they are the same in lig
     margin: 0px;
     padding: 0px;
     padding-right: 100px;
+    position: absolute;
+    z-index: 2;
   }
 
   header ul li {

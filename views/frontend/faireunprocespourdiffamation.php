@@ -1,24 +1,24 @@
-<?php $title = 'Vidéos | Républicain.e.s'; ?>
+<?php $title = 'Faire un procès pour diffamation | Républicain.e.s'; ?>
 
-<?php $currentCssStyle = 'videoList' ?>
+<?php $currentCssStyle = 'faireunprocespourdiffamation' ?>
 
-<?php $_SESSION['location'] = '/' ?>
+<?php $_SESSION['location'] = '/faireunprocespourdiffamation' ?>
 
 <?php ob_start(); ?>
 
 <?php require 'views/frontend/banner.php'; ?>
 <?php require 'views/frontend/menu.php'; ?>
 
-<div id="empty">
-
-</div>
+<section id="OnHeart">
+  <p class="big">ÉVITEZ</p>
+  <p class="small">Ce serait sympa x)</p>
+</section>
 
 
 <?php require 'views/frontend/footer.php'; ?>
 
 <script type="text/javascript" src="public/scripts/frontend.js"></script>
 <script type="text/javascript">
-  setActivePage(1);
   var langagueLogo = document.getElementById('langagueLogo');
   var langaguesFlags = document.getElementById('langaguesFlags');
 

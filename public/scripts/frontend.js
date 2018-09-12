@@ -1,5 +1,7 @@
 colorTheme = getColorThemeFromCookie();
+console.log(colorTheme);
 otherTheme = (colorTheme == 'light') ? 'dark' : 'light';
+console.log('Other theme at the start of the page ' + otherTheme);
 
 function capitalize(string) {
     return string.charAt(0).toUpperCase() + string.slice(1);
@@ -53,15 +55,19 @@ function adapteColorTheme() {
   var temporaryTheme = colorTheme;
   colorTheme = otherTheme;
   otherTheme = temporaryTheme;
-  document.cookie = 'colorTheme=' + colorTheme;
+  var d = new Date();
+  d.setTime(d.getTime() + (7*24*60*60*1000));
+  var expires = "expires="+ d.toUTCString();
+  document.cookie = 'colorTheme=' + colorTheme + '; expires=' + expires;
+  console.log("Color theme alter change" + colorTheme);
 
 }
 
 function getColorThemeFromCookie() {
   var cookies = document.cookie.split(";");
-  for (var cookie in cookies) {
-    if (cookie.indexOf('colorTheme') != -1) {
-      return cookie.split("=")[1];
+  for (var i = 0; i < cookies.length; i++) {
+    if (cookies[i].indexOf('colorTheme') != -1) {
+      return cookies[i].split("=")[1];
     }
   }
   return 'light';
@@ -80,7 +86,6 @@ function checkAletarnateStyle() {
   if (activeStyle.toLowerCase().indexOf(otherTheme) != -1) {
     adapteColorTheme();
   }
-
 setTimeout("checkAletarnateStyle()", 1000);
 }
 

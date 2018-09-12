@@ -100,6 +100,17 @@ Stylesheet for the colors of the dark theme.
   }
 
 
+  /*Color of signup okay page*/
+  section .linksToAccounts a, section .signupFinishH1 {
+    color: #FFF;
+  }
+
+  /*Color for error page*/
+  #error h1, #error p {
+    color: #FFF;
+  }
+
+
   /*Color of the body background*/
   body {
     background-color: #151515;

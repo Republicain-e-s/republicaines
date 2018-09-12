@@ -1,0 +1,50 @@
+/*
+  sigupFinish.css:
+Stylesheet for the position of the tag in the second sigup page.
+
+Few colors or box-shadow are in this stylesheet because they are the same in light and dark theme.
+*/
+
+@media screen and (min-width: 1280px) {
+
+  /*Style of title*/
+  section h1 {
+    font-family: 'Avenir-Next-UltraLight', Verdana, sans-serif;
+    font-size: 70px;
+    margin: 0px;
+  }
+
+  /*Style of pictures*/
+  section img {
+    height: 305px;
+    width: 430px;
+    margin: 20px 0px;
+  }
+
+  /*Style of links*/
+  section a {
+    text-decoration: none;
+    font-family: 'Avenir-Next', Verdana, sans-serif;
+    font-size: 20px;
+  }
+
+  section .linksToAccounts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 40px 0px;
+    height: 145px;
+  }
+
+
+  /*Style of all page*/
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+  }
+
+}

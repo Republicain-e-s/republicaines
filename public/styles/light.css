@@ -91,6 +91,17 @@ Stylesheet for the colors of the light theme (applied by default).
   }
 
 
+  /*Color of signup okay page*/
+  section .linksToAccounts a, section .signupFinishH1 {
+    color: #313131;
+  }
+
+  /*Color for error page*/
+  #error h1, #error p {
+    color: #313131;
+  }
+
+
   /*Color of the body background*/
   body {
     background-color: #FFF;

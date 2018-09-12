@@ -2,7 +2,7 @@
 
 <?php $currentCssStyle = 'signup' ?>
 
-<?php $_SESSION['location'] = '/sigup' ?>
+<?php $_SESSION['location'] = '/signup' ?>
 
 <?php ob_start(); ?>
 
@@ -52,6 +52,9 @@
   langagueLogo.style = "";
   langaguesFlags.style.display = "none";
 
+  var temporaryTheme = colorTheme;
+  colorTheme = otherTheme;
+  otherTheme = temporaryTheme;
   adapteColorTheme();
   checkAletarnateStyle();
 </script>
