@@ -57,10 +57,10 @@ function saveIconImage()
 
 function connexionToBDD()
 {
-  $host_name = 'db738807264.db.1and1.com';
-  $database = 'db738807264';
-  $user_name = 'dbo738807264';
-  $password = '_Pom 2 pin';
+  $host_name = 'localhost';
+  $database = 'repblcicain-e-s';
+  $user_name = 'root';
+  $password = '';
 
   $bdd = null;
   try {
